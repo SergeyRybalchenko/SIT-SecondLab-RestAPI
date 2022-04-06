@@ -1,0 +1,28 @@
+{
+    "student1": {
+      "id": 1,
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
+      "group": "VIS21",
+      "createdAt": "2020-03-02T12:41:09.533Z", 
+      "updatedAt": "2020-03-02T12:45:02.121Z" 
+    },
+  
+    "student2": {
+      "id": 2,
+      "firstName": "Alex",
+      "lastName": "Ivanov",
+      "group": "VIS31",
+      "createdAt": "2020-03-02T12:41:09.533Z", 
+      "updatedAt": "2020-03-02T12:45:02.121Z" 
+    },
+  
+    "student3": {
+      "id": 3,
+      "firstName": "Sergey",
+      "lastName": "Ivanov",
+      "group": "VIS43",
+      "createdAt": "2020-03-02T12:41:09.533Z", 
+      "updatedAt": "2020-03-02T12:45:02.121Z" 
+    }
+  }
