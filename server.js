@@ -62,7 +62,6 @@ app.put('/students/:id', function(req, res){
                 data["student" + id]["lastName"] = req.body.lastName;
             if(req.body.group)
                 data["student" + id]["group"] = req.body.group;
-            data["student" + id]["updatedAt"] = 
             fs.writeFile(__dirname + "/" + "students.json", JSON.stringify(data), 'utf-8', function(err, data){
                 console.log("Студент обновлен (ого, оно работает)");
             });
